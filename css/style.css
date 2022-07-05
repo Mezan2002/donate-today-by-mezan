@@ -157,6 +157,9 @@ hr {
 .mail {
   position: relative;
 }
+#mail-align {
+  margin: 0 310px;
+}
 .mail input {
   border: none;
   outline: none;
