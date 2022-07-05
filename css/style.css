@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+/* Top Banner Start */
+.top-banner {
+  background-image: url(../images/bg1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+.top-banner-content {
+  margin: auto;
+  padding: 160px 250px 20px;
+  width: 50%;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+}
+.top-banner-content h1 {
+  font-size: 60px;
+}
+.top-banner-content p {
+  padding: 0 120px;
+  font-size: 15px;
+}
+.btn {
+  text-decoration: none;
+  color: white;
+  background-color: #ff5959;
+  padding: 15px 30px;
+  border-radius: 5px;
+  margin-top: 30px;
+  font-weight: bold;
+  font-size: 15px;
+  border: none;
+}
+/* Top Banner End */
+/* Donate Today Start */
+.donate-today {
+  padding-bottom: 50px;
+}
+.donate-text {
+  margin: auto;
+  padding: 50px;
+  width: 50%;
+  font-size: 25px;
+  text-align: center;
+}
+.amounts {
+  display: flex;
+  padding-bottom: 100px;
+  justify-content: space-evenly;
+  width: 50%;
+  margin: auto;
+}
+.amounts h3 {
+  padding: 30px;
+  border-radius: 5px;
+  color: gray;
+  background-color: rgb(251, 247, 247);
+}
+.amounts h3:hover {
+  color: #ff5959;
+  border: 1px solid #ff5959;
+}
+form {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+.input-txt {
+  display: block;
+  margin: auto;
+  text-align: center;
+  border: none;
+  outline: none;
+}
+hr {
+  height: 3px;
+  width: 50%;
+  background-color: gray;
+  color: gray;
+  border-radius: 5px;
+}
+
+/* Donate Today End */
