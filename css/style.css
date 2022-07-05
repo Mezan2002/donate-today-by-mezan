@@ -1,7 +1,11 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: "Roboto", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+p {
+  font-size: 18px;
+  font-weight: 200;
 }
 /* Top Banner Start */
 .top-banner {
@@ -12,10 +16,11 @@ body {
   height: 100vh;
   width: 100%;
 }
+
 .top-banner-content {
   margin: auto;
   padding: 160px 250px 20px;
-  width: 50%;
+  width: 55%;
   text-align: center;
   font-weight: bold;
   color: white;
@@ -41,9 +46,9 @@ body {
 /* Top Banner End */
 /* Donate Today Start */
 .donate-today {
-  padding-bottom: 50px;
+  padding-bottom: 100px;
 }
-.donate-text {
+.center-text {
   margin: auto;
   padding: 50px;
   width: 50%;
@@ -58,9 +63,10 @@ body {
   margin: auto;
 }
 .amounts h3 {
-  padding: 30px;
-  border-radius: 5px;
+  padding: 50px 30px;
+  border-radius: 10px;
   color: gray;
+  margin: 0 auto;
   background-color: rgb(251, 247, 247);
 }
 .amounts h3:hover {
@@ -72,15 +78,16 @@ form {
   margin: auto;
   text-align: center;
 }
-.input-txt {
+.input-amount {
   display: block;
   margin: auto;
   text-align: center;
   border: none;
   outline: none;
+  line-height: 50px;
 }
 hr {
-  height: 3px;
+  height: 2px;
   width: 50%;
   background-color: gray;
   color: gray;
@@ -88,3 +95,98 @@ hr {
 }
 
 /* Donate Today End */
+/* Our Plan Start */
+.all-plans {
+  padding: 20px 70px 150px 70px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.plan-box {
+  width: 25%;
+  padding: 40px;
+  border-radius: 5px;
+}
+.plan-box img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+.plan-box h4 {
+  text-align: center;
+  font-size: 30px;
+}
+.plan-box p {
+  text-align: center;
+}
+#plan-b1 {
+  background-color: rgb(173, 245, 212);
+}
+#plan-b2 {
+  background-color: #ffd3d3;
+}
+#plan-b3 {
+  background-color: #f5f4ca;
+}
+/* Our Plan End */
+/* Calculations Start */
+.all-calculations {
+  padding: 20px 0 150px 0;
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+}
+.all-calculations h3 {
+  font-size: 50px;
+}
+.all-calculations p {
+  font-weight: bold;
+}
+.total,
+.spended,
+.remains {
+  border-radius: 10%;
+  box-shadow: 0 0 30px gray;
+  padding: 30px 50px;
+}
+/* Calculations End */
+/* Updates Start */
+.update {
+  padding-bottom: 150px;
+}
+.mail {
+  position: relative;
+}
+.mail input {
+  border: none;
+  outline: none;
+  text-align: left;
+  background-color: rgba(128, 128, 128, 0.212);
+  color: black;
+  padding: 15px 50px 15px 10px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+#merge-btn {
+  position: absolute;
+  bottom: 0px;
+  right: 140px;
+  border: none;
+}
+/* Updates End */
+/* footer start */
+footer {
+  padding: 40px 80px;
+  background-color: black;
+  text-align: center;
+}
+footer h3 {
+  color: #ff5959;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 30px;
+}
+footer p {
+  color: white;
+  font-size: 12px;
+}
+/* footer End */
